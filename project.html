@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Mansi Sankpal</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; 
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+.projects-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0d1117;
+}
+
+.projects-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #00ff88;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #1a1f27;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #00ff88;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 255, 136, 0.3);
+}
+
+  </style>
+</head>
+<body>
+
+  <section class="projects-section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio built using HTML, CSS, and JavaScript showcasing my skills and projects.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Grocery Management System</h3>
+          <p>Built a Grocery Management System using HTML,CSS,JavaScript which include the stack and price of groceries,fruits,vegetables.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Hospital Management System</h3>
+          <p>Built a Hospital Management System using C++ which is used to maintain and handle hospital data effciently and easily.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Data Analysis with Python</h3>
+          <p>Analyzed a dataset using pandas, matplotlib, and seaborn to uncover insights and trends.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Machine Learning Model</h3>
+          <p>Built and trained a model to predict housing prices using scikit-learn and Jupyter Notebook.</p>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

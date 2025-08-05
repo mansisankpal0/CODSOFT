@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificates - Mansi Sankpal</title>
+   <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+  }
+
+  .certificates-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .certificates-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #00ff88;
+  }
+
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .certificate-card {
+    background-color: #1a1f27;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 255, 136, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+
+  .certificate-card h3 {
+    color: #00ff88;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .certificate-card p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 10px;
+  }
+
+  .certificate-card a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #00ff88;
+  }
+
+  .certificate-card a:hover {
+    color: #00ff88;
+  }
+
+  .certificate-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 255, 136, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .certificates-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <section class="certificates-section">
+    <div class="container">
+      <h2>My Certificates</h2>
+      <div class="certificates-grid">
+        <div class="certificate-card">
+          <h3>Tata Cybersecurity Virtual Experience</h3>
+          <p>Issued by: Forage</p>
+          <a href="Tata2.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+          <h3>Trie DSA</h3>
+          <p>Issued by: Microsoft</p>
+          <a href="1xm6QW.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+          <h3>Android Develpoer Virtual Internship</h3>
+          <p>Issued by: EduSkill-AICTE</p>
+          <a href="internship certificate.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+          <h3>IBI Internship Offer </h3>
+          <p>Issued by: IBI</p>
+          <a href="IBI offer letter.pdf" target="_blank">View Certificate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
